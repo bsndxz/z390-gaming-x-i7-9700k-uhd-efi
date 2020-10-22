@@ -1,0 +1,1 @@
+# z390-gaming-x-i7-9700k-uhd-efi
