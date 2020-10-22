@@ -249,7 +249,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 darkwake=0 slide=0</string>
+		<string>dart=0 darkwake=0 slide=0 igfxonln=1</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
