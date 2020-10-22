@@ -283,7 +283,7 @@
 			<key>AFGLowPowerState</key>
 			<true/>
 			<key>Inject</key>
-			<integer>1</integer>
+			<string>No</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -297,16 +297,10 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-2</string>
-				<key>layout-id</key>
-				<data>EgAAAA==</data>
-				<key>model</key>
-				<string>Cannon Lake PCH cAVS</string>
+				<key>No-hda-gfx</key>
+				<data>Cqqqqqo=</data>
+				<key>alc-layout-id</key>
+				<integer>1</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
