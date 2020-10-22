@@ -248,28 +248,30 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>NeverHibernate</key>
+		<key>Secure</key>
 		<false/>
-		<key>Legacy</key>
-		<string>PBR</string>
-		<key>DefaultLoader</key>
-		<string>boot.efi</string>
-		<key>NeverDoRecovery</key>
-		<true/>
-		<key>Debug</key>
+		<key>NeverHibernate</key>
 		<false/>
 		<key>Arguments</key>
 		<string>dart=0 darkwake=0 slide=0 igfxonln=1</string>
 		<key>CustomLogo</key>
 		<false/>
-		<key>HibernationFixup</key>
+		<key>NeverDoRecovery</key>
 		<true/>
-		<key>Secure</key>
-		<false/>
-		<key>Timeout</key>
-		<integer>5</integer>
+		<key>DefaultLoader</key>
+		<string>boot.efi</string>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>HibernationFixup</key>
+		<true/>
+		<key>Fast</key>
+		<true/>
+		<key>Legacy</key>
+		<string>PBR</string>
+		<key>Debug</key>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -314,9 +316,9 @@
 			<key>ResetHDA</key>
 			<true/>
 			<key>AFGLowPowerState</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
-			<integer>1</integer>
+			<string>No</string>
 		</dict>
 		<key>InjectHDMI</key>
 		<false/>
@@ -324,6 +326,13 @@
 		<false/>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>alc-layout-id</key>
+				<integer>1</integer>
+				<key>No-hda-gfx</key>
+				<data>qqqqqqo=</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>framebuffer-patch-enable</key>
@@ -664,6 +673,8 @@
 		<false/>
 		<key>ProtectSecureBoot</key>
 		<false/>
+		<key>PowerTimeoutKernelPanic</key>
+		<true/>
 		<key>DisableVariableWrite</key>
 		<false/>
 		<key>SetupVirtualMap</key>
