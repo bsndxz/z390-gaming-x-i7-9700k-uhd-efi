@@ -248,28 +248,30 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>NeverHibernate</key>
-		<false/>
-		<key>Legacy</key>
-		<string>PBR</string>
-		<key>DefaultLoader</key>
-		<string>boot.efi</string>
-		<key>NeverDoRecovery</key>
-		<true/>
-		<key>Debug</key>
-		<false/>
-		<key>Arguments</key>
-		<string>dart=0 darkwake=0 slide=0 igfxonln=1 -alcbeta</string>
-		<key>CustomLogo</key>
-		<false/>
-		<key>HibernationFixup</key>
-		<true/>
 		<key>Secure</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>5</integer>
+		<key>NeverHibernate</key>
+		<false/>
+		<key>Arguments</key>
+		<string>dart=0 darkwake=0 slide=0 igfxonln=1</string>
+		<key>CustomLogo</key>
+		<false/>
+		<key>NeverDoRecovery</key>
+		<true/>
+		<key>DefaultLoader</key>
+		<string>boot.efi</string>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>HibernationFixup</key>
+		<true/>
+		<key>Fast</key>
+		<true/>
+		<key>Legacy</key>
+		<string>PBR</string>
+		<key>Debug</key>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
