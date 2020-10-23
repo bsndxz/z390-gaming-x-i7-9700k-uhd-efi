@@ -252,14 +252,12 @@
 		<false/>
 		<key>NeverHibernate</key>
 		<false/>
-		<key>NeverDoRecovery</key>
-		<true/>
 		<key>Arguments</key>
 		<string>darkwake=0 slide=0 igfxonln=1</string>
 		<key>CustomLogo</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>5</integer>
+		<key>NeverDoRecovery</key>
+		<true/>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>NoEarlyProgress</key>
@@ -267,6 +265,8 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
+		<true/>
+		<key>Fast</key>
 		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
